@@ -16,13 +16,9 @@ jobs:
           arch: arm64
           android-version: 14
           # ===== 工具链 =====
+          aosp-gcc: true
           aosp-clang: true
           aosp-clang-version: r487747c
-          # ===== 必须加回 GCC（辅助 32 位） =====
-          aosp-gcc: true
-          aosp-gcc64-version: r487747c
-          aosp-gcc32-version: r487747c
-
           # ===== 三件套 =====
           ksu: true
           ksu-version: v0.9.5          # 非 GKI 锁死 0.9.5
