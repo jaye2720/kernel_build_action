@@ -16,6 +16,7 @@ jobs:
           arch: arm64
           android-version: 14
           # ===== 工具链 =====
+          aosp-gcc: true
           aosp-clang: true
           aosp-clang-version: r487747c
           # ===== 三件套 =====
