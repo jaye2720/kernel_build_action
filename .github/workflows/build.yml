@@ -15,6 +15,8 @@ jobs:
           config: vendor/raphael_gki_defconfig
           arch: arm64
           android-version: 14
+          ksu: true
+          ksu-version: main
           aosp-clang: true
           aosp-clang-version: r487747c
           lxc: true                    # 自动注入 LXC/Docker 配置 + 补丁
