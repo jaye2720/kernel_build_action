@@ -20,10 +20,11 @@ jobs:
           aosp-clang: true
           aosp-clang-version: r487747c
           # 给模板一个可用的 GCC 仓库
-          other-gcc64-url: https://github.com/kdrag0n/proton-gcc.git
-          other-gcc64-branch: master
-          other-gcc32-url: https://github.com/kdrag0n/proton-gcc-32.git
-          other-gcc32-branch: master
+          other-gcc64-url: https://github.com/mvaisakh/gcc-build/releases/download/11.3-202306/gcc-arm64-11.3-202306.tar.xz
+          other-gcc32-url: https://github.com/mvaisakh/gcc-build/releases/download/11.3-202306/gcc-arm-11.3-202306.tar.xz
+          other-gcc64-branch: ""
+          other-gcc32-branch: ""
+
 
           # ===== 三件套 =====
           ksu: true
