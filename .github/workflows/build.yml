@@ -16,9 +16,15 @@ jobs:
           arch: arm64
           android-version: 14
           # ===== 工具链 =====
-          aosp-gcc: true
+          aosp-gcc: false
           aosp-clang: true
           aosp-clang-version: r487747c
+          # 改用仍在维护的第三方 GCC
+          other-gcc64-url: https://github.com/Dark-Matter-Core/gcc-arm64.git
+          other-gcc64-branch: master
+          other-gcc32-url: https://github.com/Dark-Matter-Core/gcc-arm.git
+          other-gcc32-branch: master
+
           # ===== 三件套 =====
           ksu: true
           ksu-version: v0.9.5          # 非 GKI 锁死 0.9.5
