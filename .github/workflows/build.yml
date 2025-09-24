@@ -11,7 +11,7 @@ jobs:
         uses: dabao1955/kernel_build_action@main
         with:
           kernel-url: https://github.com/HeliumStudio-Dev/kernel_xiaomi_raphael
-          kernel-branch: main
+          kernel-branch: rikka-v2
           config: vendor/raphael_gki_defconfig
           arch: arm64
           android-version: 14
