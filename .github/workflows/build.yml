@@ -19,7 +19,7 @@ jobs:
           aosp-gcc: false
           aosp-clang: true
           aosp-clang-version: r487747c
-          # 改用仍在维护的第三方 GCC
+          # 给模板一个可用的 GCC 仓库
           other-gcc64-url: https://github.com/Dark-Matter-Core/gcc-arm64.git
           other-gcc64-branch: master
           other-gcc32-url: https://github.com/Dark-Matter-Core/gcc-arm.git
