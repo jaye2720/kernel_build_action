@@ -16,7 +16,7 @@ jobs:
           arch: arm64
           android-version: 14
           # ===== 工具链 =====
-          aosp-gcc: false
+          aosp-gcc: true
           aosp-clang: true
           aosp-clang-version: r487747c
           # 给模板一个可用的 GCC 仓库
