@@ -18,13 +18,7 @@ jobs:
           # ===== 工具链 =====
           aosp-gcc: true
           aosp-clang: true
-          aosp-clang-version: r487747c
-          # 给模板一个可用的 GCC 仓库
-          other-gcc64-url: https://github.com/mvaisakh/gcc-build/releases/download/11.3-202306/gcc-arm64-11.3-202306.tar.xz
-          other-gcc32-url: https://github.com/mvaisakh/gcc-build/releases/download/11.3-202306/gcc-arm-11.3-202306.tar.xz
-          other-gcc64-branch: ""
-          other-gcc32-branch: ""
-
+          aosp-clang-version: r487747c          
 
           # ===== 三件套 =====
           ksu: true
