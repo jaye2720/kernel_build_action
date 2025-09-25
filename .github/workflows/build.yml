@@ -14,7 +14,7 @@ jobs:
           kernel-branch: rikka-v2
           config: vendor/raphael_gki_defconfig
           arch: arm64
-          android-version: 14
+          android-version: 13
           
           # 工具链配置
           aosp-gcc: true
